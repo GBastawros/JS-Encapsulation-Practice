@@ -1,5 +1,6 @@
 {
   "name": "5.7.4-activity",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

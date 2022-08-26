@@ -1,4 +1,7 @@
 
+
+
+
 async function main() {
     // Fetches an array of ingredients, and an array of sandwiches in the users
     //  cart, at the same time
@@ -12,7 +15,8 @@ async function main() {
     selectSandwich(items[0])
 
     // Display the ingredients we fetched
-    renderIngredientList();
+
+    ingredientList.render();
 
     // Display the sandwiches we fetched
     renderCart();
